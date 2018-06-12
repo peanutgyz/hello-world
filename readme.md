@@ -17,7 +17,6 @@
 ## Links
 
 - Documentation(ReDoc): https://peanutgyz.github.io/hello-world/
-- SwaggerUI: https://peanutgyz.github.io/hello-world/swagger-ui/
 - Look full spec:
     + JSON https://peanutgyz.github.io/hello-world/swagger.json
     + YAML https://peanutgyz.github.io/hello-world/swagger.yaml

@@ -1,0 +1,28 @@
+get:
+  operationId: ListClusters
+  summary: List available clusters
+  responses:
+    '200':
+      description: OK
+      schema:
+        type: array
+        items:
+          $ref: '#/definitions/Cluster'
+  security:
+    - keystone: []
+post:
+  operationId: CreateCluster
+  summary: Create a cluster
+  responses:
+    '200':
+      description: OK
+      schema:
+        $ref: '#/definitions/Cluster'
+  parameters:
+    - name: body
+      in: body
+      required: true
+      schema:
+        $ref: '#/definitions/Cluster'
+  security:
+    - keystone: []
