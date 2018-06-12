@@ -1,0 +1,11 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": true,
+    "importedSpec": "openapi.yml",
+    "name": "tantan",
+    "repo": "peanutgyz/hello-world",
+    "splitSpec": true,
+    "samples": false,
+    "installSwaggerUI": true
+  }
+}
